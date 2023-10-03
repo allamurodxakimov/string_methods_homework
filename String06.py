@@ -7,4 +7,6 @@ def main(s):
         bool: answer
     """
     
-    return
+    return s.isdigit()
+print(main("123454324"))
+print(main("12345432 d"))
