@@ -7,4 +7,5 @@ def main(s):
         str: answer
     """
     
-    return
+    return s.index("x",0,len(s))
+print(main("Mobile tpye xiomi"))
